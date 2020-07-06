@@ -1,6 +1,11 @@
 // Variables y globales
 @import "libs/variables";
 @import "libs/globals";
+@import "libs/mixin";
 
 // Componentes
+@import "components/boton";
 @import "components/intro";
+@import "components/episodios";
+@import "components/nosotros";
+@import "components/invitados";

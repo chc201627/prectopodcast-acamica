@@ -1,5 +1,21 @@
 .intro{
-    h1{
+
+    &__title{
+        width: 250px;
+        margin-left: 10px;
+        span{
+            text-decoration: line-through;
+        }
+    
+    }
+    &__description{
+        width: 288px;
+        height: 66px;
+        margin: 10px auto;
+    }
+    &__button{
+
+            @extend boton;
         
     }
 }

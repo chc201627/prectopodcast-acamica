@@ -1,0 +1,18 @@
+.invitados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        margin-bottom: 10px;
+    }
+    &__imagenes{
+        width: 320px;
+        height: 243px;
+        img{
+            width: 320px;
+            height: 243px;
+        }
+    }
+    
+}

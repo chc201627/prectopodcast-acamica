@@ -1,0 +1,25 @@
+.nosotros{
+
+    position: relative;
+    top: -90px;
+    &__images{
+        height: 519px;
+        img{
+            width: 320px;
+        }
+    }
+    &__description{
+        width: 90%;
+        margin: 0 auto;
+    h2{
+        letter-spacing: 0;
+        line-height: 42px;
+    }
+    p{
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top:15px ;
+    }
+    
+}
+}

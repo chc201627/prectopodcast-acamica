@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
   font-size: 36px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -24,6 +24,105 @@ p {
 
 body {
   color: #060A24;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
-/*# sourceMappingURL=styles.css.map */
+
+boton, .intro__button {
+  padding: 9px;
+  width: 90%;
+  height: 0.9%;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  background-color: #00F3BB;
+  margin: 15px auto 25px;
+}
+boton a, .intro__button a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: #060A24;
+}
+boton:hover, .intro__button:hover {
+  background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+boton:hover a, .intro__button:hover a {
+  color: #FFF;
+}
+
+.intro__title {
+  width: 250px;
+  margin-left: 10px;
+}
+.intro__title span {
+  text-decoration: line-through;
+}
+.intro__description {
+  width: 288px;
+  height: 66px;
+  margin: 10px auto;
+}
+.episodios {
+  -webkit-clip-path: polygon(0% 3%, 100% 0%, 100% 97%, 0% 100%);
+          clip-path: polygon(0% 3%, 100% 0%, 100% 97%, 0% 100%);
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  padding: 80px 0px 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.episodios__title {
+  align-self: flex-start;
+  color: #FFF;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.episodios__audios {
+  margin-top: 15px;
+}
+
+.nosotros {
+  position: relative;
+  top: -90px;
+}
+.nosotros__images {
+  height: 519px;
+}
+.nosotros__images img {
+  width: 320px;
+}
+.nosotros__description {
+  width: 90%;
+  margin: 0 auto;
+}
+.nosotros__description h2 {
+  letter-spacing: 0;
+  line-height: 42px;
+}
+.nosotros__description p {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 15px;
+}
+
+.invitados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.invitados__title {
+  margin-bottom: 10px;
+}
+.invitados__imagenes {
+  width: 320px;
+  height: 243px;
+}
+.invitados__imagenes img {
+  width: 320px;
+  height: 243px;
+}
